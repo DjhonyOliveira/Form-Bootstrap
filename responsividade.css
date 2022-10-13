@@ -1,0 +1,43 @@
+@media (max-width: 1024px) {
+    .container {
+        width: 42%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 60%;
+    }
+
+    .img-logo {
+        width: 52%;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        width: 78%;
+    }
+
+    .name-one, .name-two {
+        width: 45%;
+    }
+
+    .img-logo {
+        width: 75%;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: auto;
+    }
+
+    .img-logo {
+        width: 100%;
+    }
+
+    .name-one, .name-two {
+        width: 47%;
+    }
+}

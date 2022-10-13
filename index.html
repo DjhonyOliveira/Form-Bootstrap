@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./ajustes.css">
+    <link rel="stylesheet" href="./responsividade.css">
+    <link rel="shortcut icon" href="./resources/FAVICON-SPACEX.png" type="image/x-icon" />
+    <title>Lading Page</title>
+</head>
+<body class="py-3">
+   <!-- Header -->
+   <div class="img-fluid text-center pt-2 img-logo">
+      <img class="img-thumbnail img" src="./resources/logoOneBitDark.png" alt="logo" >
+    </div>
+    <div class="container pt-4  container1">
+        <form class="m-2">
+            <!-- Imput type text -->
+            <label for="basic-url" class="form-label">1 - Qual seu Nome</label>
+            <div class="input-group mb-3">
+                <span class="input-group-text name-one" id="basic-addon3">Primeiro Nome: </span>
+                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text name-two" id="basic-addon3">Segundo Nome:</span>
+                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+            </div>
+            <!-- imput type checkbox 01 -->
+            <label for="basic-url" class="form-label">2 - Qual seu Gênero?</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Homen
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Mulher
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Prefiro não informar
+                </label>
+              </div>
+              <!-- imput type checkbox 02 -->
+              <label for="basic-url" class="form-label pt-2">3 - Marque os treinamentos que você fez:</label>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Treinamento básico de astronauta</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Treinamento físico básico</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Treinamento avançado de astronauta</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Treinamento físico intenso</label>
+              </div>
+              <!-- imput type checkbox 03 -->
+              <label for="basic-url" class="form-label pt-3">4 - Quais você acha que são suas qualidades?</label>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Proativo</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">resistente</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                <label class="form-check-label" for="inlineCheckbox3">Não vomito fácil</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Não temo marciano</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Já vi todos os star wars</label>
+              </div>
+              <!-- Button submit -->
+              <div class="text-center pt-4 pb-3">
+                <button type="button" class="btn btn-outline-danger">Enviar</button>
+              </div>
+        </form>
+    </div>
+    <!-- footer -->
+    <div class="container w-100 text-center footer">
+      <p class="pt-1">
+          Feito por Djonatan Oliveira &copy; Curso <a href="https://programador.onebitcode.space/">OneBitCode</a> Modulo Bootstrap - 2022
+      </p>
+    </div>
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
